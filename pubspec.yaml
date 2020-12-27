@@ -9,12 +9,21 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_launcher_icons: ^0.7.5
+
 
   cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.8,1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+flutter_icons:
+  ios: true
+  android: true
+  image_path_android: "images/bmi_icon.png"
+
 
 flutter:
   uses-material-design: true
+
